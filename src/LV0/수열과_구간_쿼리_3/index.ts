@@ -1,6 +1,6 @@
 import type { Query } from './types';
 
-export default function solution<T>(arr: T[], queries: Query[]) {  
+export const solution = <T>(arr: T[], queries: Query[]) => {  
   return queries.reduce((accumulator: T[], currentValue: Query) => {
     const [i, j] = currentValue;
 
