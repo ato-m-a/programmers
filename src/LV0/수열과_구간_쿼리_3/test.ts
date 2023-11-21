@@ -8,6 +8,6 @@ describe('Lv.0 - 수열과 구간 쿼리 3', () => {
   `;
 
   test(comment, () => {
-    expect(solution([0, 1, 2, 3, 4], [[0, 3], [1, 2], [1, 4]])).toStrictEqual([3, 4, 1, 0, 2]);
+    expect(solution<number>([0, 1, 2, 3, 4], [[0, 3], [1, 2], [1, 4]])).toStrictEqual([3, 4, 1, 0, 2]);
   });
 });
