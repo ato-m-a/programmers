@@ -1,0 +1,1 @@
+export const solution = (my_string: string, n: number) => [...my_string].slice(0, n).join('');
