@@ -1,0 +1,1 @@
+export const solution = (num_list: number[]) => num_list.findIndex(v => v < 0);
