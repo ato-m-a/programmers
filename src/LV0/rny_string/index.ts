@@ -1,0 +1,1 @@
+export const solution = (rny_string: string) => rny_string.replaceAll('m', 'rn');
