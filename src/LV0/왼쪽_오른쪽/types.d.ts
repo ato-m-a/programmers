@@ -1,0 +1,1 @@
+export type Str = 'u' | 'd' | 'l' | 'r';
