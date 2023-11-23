@@ -1,0 +1,1 @@
+export type Number = 0 | 1;
