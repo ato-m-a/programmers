@@ -1,0 +1,1 @@
+export const solution = (strArr: string[]) => strArr.filter(char => !char.includes('ad'));
