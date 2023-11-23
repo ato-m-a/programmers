@@ -2,7 +2,8 @@
   "packageManager": "yarn@4.0.2",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:lv0": "jest src/LV0/*/test.ts --runInBand --silent"
   },
   "devDependencies": {
     "@babel/core": "^7.23.3",
