@@ -1,0 +1,1 @@
+export const solution = (myString: string) => myString.split('x').filter(v => v !== '').sort();
