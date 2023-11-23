@@ -1,0 +1,1 @@
+export const solution = (my_string: string) => my_string.split(' ');
