@@ -9,5 +9,5 @@ export const solution = (n: number, slicer: Slicer, num_list: number[]) => {
 
   if (n === 3) return num_list.slice(a, b + 1);
 
-  return num_list.slice(a, b + 1).filter((v, i) => i % 2 === 0);
+  return num_list.slice(a, b + 1).filter((v, i) => i % c === 0);
 }
