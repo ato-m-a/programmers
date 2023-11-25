@@ -3,7 +3,8 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "test:lv0": "jest src/LV0/*/test.ts --runInBand --silent"
+    "test:lv0": "jest src/LV0/*/test.ts --runInBand --silent",
+    "test:lv1": "jest src/LV1/*/test.ts --runInBand --silent"
   },
   "devDependencies": {
     "@babel/core": "^7.23.3",
