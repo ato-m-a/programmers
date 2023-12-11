@@ -1,6 +1,6 @@
-# programmers
+# Coding Test Playground
 
-프로그래머스 코딩테스트 연습장
+코딩테스트 연습장
 
 ## 환경
 
@@ -12,5 +12,8 @@
 ## 실행
 
 ```bash
-yarn test
+yarn prgrms:lv0
+yarn prgrms:lv1
+yarn boj:bronze4
+yarn boj:bronze3
 ```
