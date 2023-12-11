@@ -1,0 +1,1 @@
+export const solution = (input) => Math.max(...input.map(v => v.split(' ').map(Number).reduce((acc, cur) => acc + cur, 0)));
