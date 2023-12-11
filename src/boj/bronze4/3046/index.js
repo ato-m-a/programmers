@@ -1,0 +1,1 @@
+export const solution = (input) => input.at(1) * 2 - input.at(0);
