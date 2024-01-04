@@ -5,7 +5,8 @@
     "prgrms:lv0": "jest src/programmers/LV0/*/test.ts --runInBand --silent",
     "prgrms:lv1": "jest src/programmers/LV1/*/test.ts --runInBand --silent",
     "boj:bronze4": "jest src/boj/bronze4/*/test.js --runInBand --silent",
-    "boj:bronze3": "jest src/boj/bronze3/*/test.js --runInBand --silent"
+    "boj:bronze3": "jest src/boj/bronze3/*/test.js --runInBand --silent",
+    "boj:bronze2": "jest src/boj/bronze2/*/test.js --runInBand --silent"
   },
   "devDependencies": {
     "@babel/core": "^7.23.3",
